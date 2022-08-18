@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formulario">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido Cristian"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese nombre"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese telefono"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese edad"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+    </TableRow>
+
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enviar" />
+    </TableRow>
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="limpiar" />
+    </TableRow>
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/mostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mostrar" />
+    </TableRow>
+
+
+</TableLayout>
